@@ -1,0 +1,76 @@
+{
+    "manufacturer": "HaiZeus",
+    "keyboard_name": "Infernum",
+    "maintainer": "HaiZeus",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "usb": {
+        "vid": "0x0411",
+        "pid": "0x0520",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "encoder": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP28", "pin_b": "GP27", "resolution": 4 },
+            { "pin_a": "GP12", "pin_b": "GP11", "resolution": 4 }
+        ]
+    },
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "rows": ["GP8", "GP9", "GP14", "GP10"],
+        "cols": ["GP18", "GP13", "GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7"]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0.5, "y": 0.0 },
+                { "matrix": [0, 1], "x": 1.5, "y": 0.0 },
+                { "matrix": [0, 2], "x": 2.5, "y": 0.0 },
+                { "matrix": [0, 3], "x": 3.5, "y": 0.0 },
+                { "matrix": [0, 4], "x": 4.5, "y": 0.0 },
+                { "matrix": [3, 0], "x": 5.5, "y": 0.0 },
+                { "matrix": [0, 5], "x": 6.5, "y": 0.0 },
+                { "matrix": [0, 6], "x": 7.5, "y": 0.0 },
+                { "matrix": [0, 7], "x": 8.5, "y": 0.0 },
+                { "matrix": [0, 8], "x": 9.5, "y": 0.0 },
+                { "matrix": [0, 9], "x": 10.5, "y": 0.0 },
+                { "matrix": [1, 0], "x": 0.25, "y": 1.0 },
+                { "matrix": [1, 1], "x": 1.25, "y": 1.0 },
+                { "matrix": [1, 2], "x": 2.25, "y": 1.0 },
+                { "matrix": [1, 3], "x": 3.25, "y": 1.0 },
+                { "matrix": [1, 4], "x": 4.25, "y": 1.0 },
+                { "matrix": [1, 5], "x": 6.75, "y": 1.0 },
+                { "matrix": [1, 6], "x": 7.75, "y": 1.0 },
+                { "matrix": [1, 7], "x": 8.75, "y": 1.0 },
+                { "matrix": [1, 8], "x": 9.75, "y": 1.0 },
+                { "matrix": [1, 9], "x": 10.75, "y": 1.0 },
+                { "matrix": [2, 0], "x": 0.0, "y": 2.0 },
+                { "matrix": [2, 1], "x": 1.0, "y": 2.0 },
+                { "matrix": [2, 2], "x": 2.0, "y": 2.0 },
+                { "matrix": [2, 3], "x": 3.0, "y": 2.0 },
+                { "matrix": [2, 4], "x": 4.0, "y": 2.0 },
+                { "matrix": [2, 5], "x": 7.0, "y": 2.0 },
+                { "matrix": [2, 6], "x": 8.0, "y": 2.0 },
+                { "matrix": [2, 7], "x": 9.0, "y": 2.0 },
+                { "matrix": [2, 8], "x": 10.0, "y": 2.0 },
+                { "matrix": [2, 9], "x": 11.0, "y": 2.0 },
+                { "matrix": [3, 2], "w": 1.25, "x": 1.25, "y": 3.0 },
+                { "matrix": [3, 3], "w": 1.25, "x": 2.5, "y": 3.0 },
+                { "matrix": [3, 4], "w": 1.75, "x": 3.75, "y": 3.0 },
+                { "matrix": [3, 9], "x": 5.5, "y": 3.25 },
+                { "matrix": [3, 5], "w": 1.75, "x": 6.5, "y": 3.0 },
+                { "matrix": [3, 6], "w": 1.25, "x": 8.25, "y": 3.0 },
+                { "matrix": [3, 7], "w": 1.25, "x": 9.5, "y": 3.0 }
+            ]
+        }
+    }
+}
