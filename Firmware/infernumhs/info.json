@@ -2,12 +2,12 @@
     "manufacturer": "HaiZeus",
     "keyboard_name": "Infernum",
     "maintainer": "HaiZeus",
-    "processor": "RP2040",
-    "bootloader": "rp2040",
+    "processor": "STM32F072",
+    "bootloader": "stm32-dfu",
     "usb": {
         "vid": "0x0411",
-        "pid": "0x0520",
-        "device_version": "0.1.0"
+        "pid": "0x0522",
+        "device_version": "0.0.1"
     },
     "features": {
         "audio": false,
@@ -24,8 +24,8 @@
     },
     "encoder": {
         "rotary": [
-            { "pin_a": "GP28", "pin_b": "GP27", "resolution": 4 },
-            { "pin_a": "GP12", "pin_b": "GP11", "resolution": 4 }
+            { "pin_a": "A10", "pin_b": "A9", "resolution": 2 },
+            { "pin_a": "F1", "pin_b": "F0", "resolution": 2 }
         ]
     },
     "rgb_matrix": {
@@ -33,13 +33,12 @@
         "driver": "ws2812"
     },
     "ws2812": {
-        "driver": "vendor",
-        "pin": "GP29"
+        "pin": "B10"
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "rows": ["GP8", "GP9", "GP14", "GP10"],
-        "cols": ["GP18", "GP13", "GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7"]
+        "rows": ["A3", "B11", "A1", "A2"],
+        "cols": ["A0", "B9", "A15", "A14", "A13", "B3", "B4", "B5", "B6", "B7"]
     },
     "layouts": {
         "LAYOUT": {
@@ -75,13 +74,13 @@
                 { "matrix": [2, 7], "x": 9.0, "y": 2.0 },
                 { "matrix": [2, 8], "x": 10.0, "y": 2.0 },
                 { "matrix": [2, 9], "x": 11.0, "y": 2.0 },
-                { "matrix": [3, 2], "w": 1.25, "x": 1.25, "y": 3.0 },
-                { "matrix": [3, 3], "w": 1.25, "x": 2.5, "y": 3.0 },
-                { "matrix": [3, 4], "w": 1.75, "x": 3.75, "y": 3.0 },
-                { "matrix": [3, 9], "x": 5.5, "y": 3.25 },
-                { "matrix": [3, 5], "w": 1.75, "x": 6.5, "y": 3.0 },
-                { "matrix": [3, 6], "w": 1.25, "x": 8.25, "y": 3.0 },
-                { "matrix": [3, 7], "w": 1.25, "x": 9.5, "y": 3.0 }
+                { "matrix": [3, 2], "w": 1.25, "x": 1.25, "y": 3 },
+                { "matrix": [3, 3], "x": 2.5, "y": 3 },
+                { "matrix": [3, 4], "w": 2, "x": 3.5, "y": 3 },
+                { "matrix": [3, 5], "w": 2, "x": 6.5, "y": 3 },
+                { "matrix": [3, 6], "x": 8.5, "y": 3 },
+                { "matrix": [3, 7], "w": 1.25, "x": 9.5, "y": 3 },
+                { "matrix": [3, 9], "x": 5.5, "y": 3.25 }
             ]
         }
     }
