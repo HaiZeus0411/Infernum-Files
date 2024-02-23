@@ -19,7 +19,7 @@ Blocker variant will also include:
 
  ![Kit Contents](IMG_3490.jpg)
 
-PCBs have been tested before shipping, however, it is always best to test a PCB before soldering as a precaution. If you are using encoders and/or stabilizers, make sure to install them before soldering on switches, as it will not be possible afterwards. Please reference the layout numbering in the below KLE when soldering the space bar switches. The layouts are numbered below the each switch position on the PCB.
+PCBs have been tested before shipping, however, it is always best to test a PCB before soldering as a precaution. If you are using encoders and/or stabilizers, make sure to install them before soldering on switches, as it will not be possible afterwards. Please reference the layout numbering in the below KLE when soldering the space bar switches. The layouts are numbered below each switch position on the PCB.
 
  ![Infernum KLE](image.png)
 
