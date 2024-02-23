@@ -12,11 +12,12 @@ Each Infernum Skeleton Kit will come with the following items:
  - 3x M2x8mm counter sunk screws
  - 3x M2 hex nuts
  - 5x Silicone feet
- Blocker variant will also include:
+
+Blocker variant will also include:
  - Choice of blocker
  - 3x M3x6mm counter sunk screws
 
- ![Kit Contents](IMG_3493.jpg)
+ ![Kit Contents](IMG_3490.jpg)
 
 PCBs have been tested before shipping, however, it is always best to test a PCB before soldering as a precaution. If you are using encoders and/or stabilizers, make sure to install them before soldering on switches, as it will not be possible afterwards. Please reference the layout numbering in the below KLE when soldering the space bar switches. The layouts are numbered below the each switch position on the PCB.
 
