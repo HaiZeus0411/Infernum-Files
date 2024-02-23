@@ -4,8 +4,8 @@ Each Infernum Skeleton Kit will come with the following items:
  - 1x FR4 switch plate
  - 1x Acrylic bottom plate (blocker or blocker-less)
  - 1x Foot (acrylic or brass)
- 
- Hardware:
+
+Hardware:
  - 5x M2x6mm round head screws
  - 5x M2x10mm standoffs
  - 5x M2x6mm counter sunk screws
@@ -19,9 +19,9 @@ Blocker variant will also include:
 
  ![Kit Contents](IMG_3490.jpg)
 
-PCBs have been tested before shipping, however, it is always best to test a PCB before soldering as a precaution. If you are using encoders and/or stabilizers, make sure to install them before soldering on switches, as it will not be possible afterwards. Please reference the layout numbering in the below KLE when soldering the space bar switches. The layouts are numbered below the each switch position on the PCB.
+PCBs have been tested before shipping, however, it is always best to test a PCB before soldering as a precaution. If you are using encoders and/or stabilizers, make sure to install them before soldering on switches, as it will not be possible afterwards. Please reference the layout numbering in the below KLE when soldering the space bar switches. The layouts are numbered below each switch position on the PCB.
 
- ![Infernum KLE](image.png)
+![KLE](image.png)
 
 This skeleton kit is the same as most other skeleton kits, with the distinguishing factor being the use of countersunk screws. All counter sunk screws are to be used on the bottom side of the acrylic bottom plate and foot. The photos below depict each step in the assembly process.
 
@@ -41,4 +41,4 @@ Step 5 (Blocker only): Attach blocker to bottom plate using M3x6mm counter sunk 
 ![Step 5](IMG_3500.jpg)
 
 Step 6: Add keycaps and enjoy!
- ![Step 6](image_50395905.JPG)
+ ![Step 6](IMG_3501.jpg)
