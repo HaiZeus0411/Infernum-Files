@@ -12,17 +12,17 @@
       [
         "Left Space",
         "1.75u",
-        "2u",
-        "2.25u",
-        "2.75u",
+        "2u (Solder Only)",
+        "2.25u (Solder Only)",
+        "2.75u (Solder Only)",
         "3u"
       ],
       [
         "Right Space",
         "1.75u",
-        "2u",
-        "2.25u",
-        "2.75u",
+        "2u (Solder Only)",
+        "2.25u (Solder Only)",
+        "2.75u (Solder Only)",
         "3u"
       ],
       "Top Encoder",

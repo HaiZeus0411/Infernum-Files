@@ -1,0 +1,70 @@
+{
+    "name": "pantagruel.",
+    "lighting": "none",
+    "matrix": {
+        "rows": 5,
+        "cols": 10
+    },
+    "layouts": {
+        "labels": [
+            "Top Encoder",
+            "Bottom Encoder"
+          ],
+      "keymap": [
+        [
+            {
+              "x": 5
+            },
+            {
+              "d": true
+            },
+            "0,0\n\n\n0,0\n\n\n\n\n\ne",
+            {
+              "d": true
+            },
+            "0,1\n\n\n0,0\n\n\n\n\n\ne",
+            "0,0\n\n\n0,1\n\n\n\n\n\ne",
+            "0,1\n\n\n0,1\n\n\n\n\n\ne"
+          ],
+          [{"x":0.5},"0,0","0,1","0,2","0,3","0,4","4,0","0,5","0,6","0,7","0,8","0,9"],
+          [{"x":0.25},"1,0","1,1","1,2","1,3","1,4",{"x":1.5},"1,5","1,6","1,7","1,8","1,9"],
+          ["2,0","2,1","2,2","2,3","2,4",{"x":2},"2,5","2,6","2,7","2,8","2,9"],
+          [{"x":1.25,"c":"#cca1a1","w":1.25},"3,1",{"w":1.25},"3,2",{"w":1.75},"3,4",{"x":1,"c":"#a1c2cc","w":1.75},"3,5",{"w":1.25},"3,7",{"w":1.25},"3,8"],
+          [{"y":-0.75,"x":5.5,"c":"#cccccc"},"4,1"],
+          [
+            {
+              "x": 5
+            },
+            {
+              "d": true
+            },
+            "1,0\n\n\n1,0\n\n\n\n\n\ne",
+            {
+              "d": true
+            },
+            "1,1\n\n\n1,0\n\n\n\n\n\ne",
+            "1,0\n\n\n1,1\n\n\n\n\n\ne",
+            "1,1\n\n\n1,1\n\n\n\n\n\ne"
+          ]
+      ]
+
+    },
+    "customKeycodes": [
+        {
+         "title": "Increase Actuation Point",
+         "shortName": "EC\nAPC+",
+         "name": "EC_AP_I"
+        },
+        {
+         "title": "Decrease Actuation Point",
+         "shortName": "EC\nAPC-",
+         "name": "EC_AP_D"
+        },
+        {
+         "title": "EC Recalibration",
+         "shortName": "EC\nconfig\nreset",
+         "name": "EC_CLR"
+        }
+    ]
+
+}
