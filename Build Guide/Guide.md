@@ -1,6 +1,6 @@
 # Infernum Build Guide
 Hardware:
- - 5x M2x4mm round head screws
+ - 5x M2x5mm round head screws
  - 5x M2x10mm standoffs
  - 5x M2x6mm counter sunk screws
  - 3x M2x8mm counter sunk screws
@@ -25,7 +25,7 @@ Step 1: Attach foot to bottom plate using M2x8mm counter sunk screws and M2 hex 
 Step 2: Attach standoffs to bottom plate using M2x6mm counter sunk screws. Please note, foot should be on the opposite side of the standoffs.
  ![Step 2](DSC00536.jpg)
 
-Step 3: Attach PCB-switch plate assembly to bottom plate using M2x6mm round head screws. 
+Step 3: Attach PCB-switch plate assembly to bottom plate using M2x5mm round head screws. 
  ![Step 3](DSC00537.jpg)
 
 Steps 4 & 5: Attach silicone feet to bottom side. And, for blocker variant, attach blocker using M3x6mm counter sunk screws.
