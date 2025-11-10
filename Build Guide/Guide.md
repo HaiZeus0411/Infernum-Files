@@ -1,5 +1,5 @@
 # Infernum Build Guide
-Hardware:
+Hardware included (1 extra of each):
  - 5x M2x5mm round head screws
  - 5x M2x10mm standoffs
  - 5x M2x6mm counter sunk screws
